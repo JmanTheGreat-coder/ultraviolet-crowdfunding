@@ -8,6 +8,8 @@ export default defineConfig({
     global: "globalThis",
     "process.env": {},
   },
-  
+  build: {
+    chunkSizeWarningLimit: 2400,
+  },
 
 });
